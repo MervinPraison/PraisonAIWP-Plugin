@@ -8,18 +8,21 @@ repo_url: https://github.com/MervinPraison/PraisonAIWP-Plugin
 theme:
   name: material
   palette:
-    - scheme: default
-      primary: deep purple
-      accent: amber
-      toggle:
-        icon: material/brightness-7
-        name: Dark mode
     - scheme: slate
       primary: deep purple
       accent: amber
       toggle:
         icon: material/brightness-4
-        name: Light mode
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.instant
     - navigation.tabs
