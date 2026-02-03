@@ -1,0 +1,60 @@
+site_name: PraisonAI WordPress Plugin
+site_url: https://mervinpraison.github.io/PraisonAIWP-Plugin
+site_description: AI Chatbot for WordPress - Easy Integration Guide
+
+repo_name: MervinPraison/PraisonAIWP-Plugin
+repo_url: https://github.com/MervinPraison/PraisonAIWP-Plugin
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Configuration: getting-started/configuration.md
+  - Features:
+    - Chatbot: features/chatbot.md
+    - Shortcode: features/shortcode.md
+    - API Settings: features/api-settings.md
+  - Guides:
+    - Customization: guides/customization.md
+    - Troubleshooting: guides/troubleshooting.md
+  - Development:
+    - AGENTS: development/AGENTS.md

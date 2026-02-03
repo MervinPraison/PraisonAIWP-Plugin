@@ -1,0 +1,13 @@
+# Directories
+.git
+.vscode
+assets
+
+# Files
+.gitignore
+.DS_Store
+README.md
+WORDPRESS_PLUGIN_DEVELOPMENT_GUIDE.md
+build.md
+deploy.sh
+*.sh
