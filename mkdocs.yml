@@ -60,4 +60,4 @@ nav:
     - Customization: guides/customization.md
     - Troubleshooting: guides/troubleshooting.md
   - Development:
-    - AGENTS: development/AGENTS.md
+    - AGENTS: AGENTS.md
