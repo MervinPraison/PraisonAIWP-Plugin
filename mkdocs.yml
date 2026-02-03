@@ -59,5 +59,3 @@ nav:
   - Guides:
     - Customization: guides/customization.md
     - Troubleshooting: guides/troubleshooting.md
-  - Development:
-    - AGENTS: AGENTS.md
