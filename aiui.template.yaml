@@ -7,8 +7,9 @@ site:
   title: PraisonAI WordPress Plugin
   ui: shadcn
   theme:
-    preset: purple
-    darkMode: true
+    preset: paper
+    radius: md
+    mode: system
   description: AI Chatbot for WordPress - Easy Integration Guide
 seo:
   siteUrl: https://wp.praison.ai
