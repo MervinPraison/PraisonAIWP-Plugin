@@ -1,3 +1,18 @@
+---
+layout: home
+title: PraisonAI WordPress Plugin
+description: AI Chatbot for WordPress - Easy Integration Guide
+hero:
+  name: PraisonAI WordPress Plugin
+  text: PraisonAI WordPress Plugin
+  tagline: AI Chatbot for WordPress - Easy Integration Guide
+  actions:
+  - text: Quick start
+    link: getting-started/installation.md
+  - text: View on GitHub
+    link: https://github.com/MervinPraison/PraisonAIWP-Plugin
+    theme: alt
+---
 # PraisonAI WordPress Plugin
 
 Add an AI chatbot to your WordPress site in minutes.
